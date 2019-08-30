@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gufe.dao.CollectDao">
+    <resultMap id="CollectFilesMap" type="CollectFiles">
+        <id property="cfId" column="cfid"/>
+        <result property="collectDate" column="collectdate"/>
+        <association property="files" column="fid" javaType="Files">
+            <id property="fId" column="fid"/>
+            <result property="fIco" column="fico"/>
+            <result property="fTitle" column="ftitle"/>
+            <result property="fSize" column="fsize"/>
+            <result property="uploadDate" column="uploaddate"/>
+            <result property="fPath" column="fpath"/>
+            <result property="downloadSum" column="downloadsum"/>
+            <result property="collectSum" column="collectsum"/>
+            <association property="user" column="fuid" javaType="User">
+                <id property="uId" column="fuid"/>
+                <result property="userName" column="fusernmae"/>
+            </association>
+        </association>
+        <association property="user" column="uid" javaType="User">
+            <id property="uId" column="cfuid"/>
+            <result property="userName" column="cfusernmae"/>
+        </association>
+    </resultMap>
+
+    <insert id="addFileCollect" parameterType="CollectFiles" useGeneratedKeys="true" keyProperty="cfId" >
+        INSERT INTO collectfiles(fid,uid,collectdate)
+        VALUE (#{files.fId},#{user.uId},#{collectDate})
+    </insert>
+    <select id="getFilesCollectList" parameterType="Integer" resultMap="CollectFilesMap">
+        SELECT
+            collectfiles.cfid,
+            collectfiles.collectdate,
+            collectfiles.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            files.uid AS fuid,
+            (SELECT `user`.username FROM `user` WHERE files.uid = `user`.uid) AS fusernmae,
+            collectfiles.uid AS cfuid ,
+            `user`.username AS cfusernmae
+            FROM
+            collectfiles
+            INNER JOIN files ON collectfiles.fid = files.fid
+            INNER JOIN `user` ON collectfiles.uid = `user`.uid
+          WHERE collectfiles.uid = #{uId}
+    </select>
+
+    <delete id="delFileCollect" parameterType="Integer">
+        DELETE FROM collectfiles
+        WHERE cfid = #{cfId}
+    </delete>
+
+
+
+</mapper>

@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.boxhead{
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 10%;
+    width: 100%;
+    background-color: #ecffcc;
+}
+.boxhead h2{
+    text-align: center;
+}
+
+.menutag{
+    position: fixed;
+    top:10%;
+    left: 0px;
+    width:100%;
+    height: 30px;
+    line-height: 30px;
+    border: #cccccc solid 1px;
+    /*background-color: #C7DDEE;*/
+}
+.menutag ul{
+    list-style: none;
+}
+.menutag ul li{
+    float: left;
+    margin-left: 30px;
+    display: block;
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    color: grey;
+    cursor: pointer;
+}
+.menutag li.basetab{
+    background-color: #e3e3e3;
+    color: #3122ff;
+    font-weight: bold;
+}
+
+.boxsearch{
+    margin-left: 80%;
+    font-weight: bold
+}
+.searchlab {
+    color: #cc2b00;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.searchinput{
+    outline: none;
+    border: #cc2b00 solid 1px;
+    border-radius: 2px;
+    width: 80%;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 20px;
+}
+
+
+.boxcon{
+    position: fixed;
+    top:15%;
+    left: 0px;
+    height: 500px;
+    width: 100%;
+
+}/*nav*/
+/*.filenav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 500px;
+    width: 20%;
+    !*background-color: #cccccc;*!
+}
+.filenav ul{
+    list-style: none;
+}
+.filenav ul li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #1c7ccd;
+    margin-top: 27px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.filenav ul li:hover{
+    background-color: #FFD700;
+    color: red;
+}*/
+.allfiles{
+    position: absolute;
+    top: 0;
+    left: 5%;
+    overflow: auto;
+}
+
+.filestable tr:hover{
+    background-color: #cccccc;
+}
+
+.allfiles table{
+    margin-left: 30px;
+    text-align: center;
+}
+.allfiles table tr {
+
+}
+.allfiles table tr.filestr td{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #cccccc;
+    overflow: visible;
+}
+.allfiles tr.filestr td.filestitle{
+    width: 200px;
+    font-weight: bold;
+    overflow: auto;
+
+}
+.filestable label{
+    color: #00b4f4;
+    cursor: pointer;
+}
+.filestable label:hover{
+    color: red;
+}
+.fileshow{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #cccccc;
+    display: none;
+    opacity: 0.6;
+    z-index: 9999;
+}

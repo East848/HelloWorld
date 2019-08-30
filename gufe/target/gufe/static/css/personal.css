@@ -1,0 +1,881 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*信息头部*/
+.pershead{
+    position: fixed;
+    top:11%;
+    left: 0px;
+    height: 15%;
+    width: 100%;
+    background-color: #bcb188;
+    z-index: 99;
+}
+.userheadbox{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 80px;
+    margin-top: 5px;
+    margin-left: 20px;
+    border-radius: 10%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #cccccc;
+    float: right;
+}
+.userheadbox .userimg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 80px;
+    width: 80px;
+}
+.userimg img{
+    width: 100%;
+    height: 100%;
+}
+.userheadbox .updateheadimg{
+    display: block;
+    height: 80px;
+    width: 80px;
+    margin-left: 20%;
+    line-height: 100px;
+    color: #cc0c06;
+}
+.userinfo{
+    position: absolute;
+    top: 1px;
+    left: 130px;
+    height: 80px;
+    width: 45%;
+    /*background-color:#00b0f0;*/
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.userinfo label{
+    margin-left: 20px;
+}
+.userinfo hr{
+    width: 82%;
+    color: #FFD700;
+}
+.userinfo .infotwo{
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 10px;
+    /*background-color: #FFD700;*/
+
+}
+.infotwo1{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 33%;
+    margin-left: 5px;
+    border-right: solid #f3f3f3 2px;
+}
+.infotwo2{
+    position: absolute;
+    top: 0px;
+    left: 34%;
+    width: auto;
+
+}
+.infotwo2 .loginDate{
+    color: #cc2b00;
+}
+/*地址 天气*/
+.rightinfo{
+    position: absolute;
+    top: 1px;
+    left: 65%;
+    height: 100px;
+    line-height: 100px;
+    width: 30%;
+    /*background-color: #FFD700;*/
+}
+.rightinfo label{
+    margin-left: 10px;
+}
+.rightinfo label.address {
+    margin-left: -1px;
+    margin-right: 60px;
+}
+
+/*上传头像*/
+.uploaduserheadpic{
+    position: fixed;
+    top:15%;
+    left: 40%;
+    height: 230px;
+    width: 300px;
+    background-color: #00adff;
+    z-index: 103;
+    display: none;
+}
+.uploaduserheadpic label{
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #999999;
+    color: #FFD700;
+    text-align: center;
+    font-weight: bold;
+}
+.uploaduserheadpic .erro_sign{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.uploaduserheadpic .erro_sign img{
+    width: 100%;
+    height: 100%;
+}
+.picname{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+}
+.leftarrowbox{
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    width: 18%;
+    height: 135px;
+    /*background-color: #f4c44a;*/
+}
+
+.headpicshow{
+    position: absolute;
+    top: 65px;
+    left: 20.2%;
+    width: 60%;
+    height: 135px;
+    overflow: hidden;
+    border-radius: 5px;
+    background-color: #00b4f4;
+
+}
+.headpicshow img{
+    height: 100%;
+    width: 100%;
+
+}
+.pichide{
+    display: none;
+}
+.picshow{
+    display: block;
+}
+.rightarrowbox{
+    width: 18%;
+    height: 135px;
+    margin-top: 35px;
+    /*background-color: #f4c44a;*/
+    float: right;
+}
+.rightarrowbox img,.leftarrowbox img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.submitheadpiclab{
+    display: block;
+    position: absolute;
+    bottom: 2px;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #CDCDC1;
+}
+.submitheadpiclab:hover{
+    background-color: #FFD700;
+    color: #cc2b00;
+}
+
+
+
+/*菜单导航*/
+.rightnav{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 150px;
+    height: 100%;
+    background-color: #66a2cd;
+}
+.rightnav ul{
+    margin-top: 10px;
+    text-align: center;
+    list-style: none;
+}
+.rightnav ul li{
+    margin-top: 10px;
+}
+.rightnav ul li a{
+    color: #FFD700;
+    text-decoration: none;
+    }
+.rightnav ul li a:hover{
+    color: #cc2b00;
+}
+.persmenu{
+    position:fixed;
+    top: 27%;
+    left: 0px;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    z-index: 20;
+    /*background-color: #8B7D6B;*/
+}
+.persmenu ul{
+margin-left: 30px;
+list-style: none;
+}
+.persmenu ul li{
+    float: left;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.persmenu .targ{
+    color: #0e99ff;
+}
+.persmenu ul li:hover{
+    color: #0e99ff;
+}
+
+/* 显示用户信息*/
+.persinfo{
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    width: 40%;
+    height: 400px;
+    /*border: #00b4f4 solid 1px;*/
+}
+.persinfo .usertable{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+}
+.usertable,.usertable tr, .usertable td{
+    border: #00b4f4 solid 1px;
+    cursor: pointer;
+}
+.usertable tr.persinfotitle{
+    background-color: #cccccc;
+}
+.usertable tr.profile{
+    height: 140px;
+}
+.usertable tr.updateuser{
+    background-color: #ccac4a;
+    color: red;
+    font-weight: bold;
+}
+
+.usertable textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    text-indent: 35px
+}
+
+
+
+/*更新用户信息*/
+.updateinfo{
+    position: absolute;
+    left: 52%;
+    top: 0%;
+    width: 40%;
+    height: 400px;
+    display: none;
+    /*border: #00b4f4 solid 1px;*/
+}
+.updatetable, .updatetable tr, .updatetable td{
+    border: red solid 1px;
+    text-align: center;
+}
+.updatetable{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+.updatetable tr{
+    text-align: left;
+}
+.updatetable td{
+
+}
+.updatetable input{
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+.updatetable td select{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+}
+.updatetable textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+
+}
+.updateinfotitle{
+    background-color: #0e99ff;
+}
+.updatesubmit{
+    background-color: #cc2b00;
+    color: #FFD700;
+    font-weight: bold;
+    cursor: pointer;
+}
+.username,password,telephone,email,sex,birthday,address,profile{
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+}
+.updatetable td.profile{
+    width: 100px;
+    height: 50px;
+    line-height: 25px;
+}
+.menucontext{
+    position: fixed;
+    top: 32%;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    /*background-color: #FFD700;*/
+}
+
+.menucontext .perscon{
+    display: none;
+    width: 99.9%;
+    left: 1%;
+    height: 450px;
+    border:#ccc solid 1px;
+}
+.menucontext .basicinfo{
+    display:block;
+}
+
+.perscontext{
+    display: none;
+}
+.uploadform{
+    /*background-color: #FFD700;*/
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 40%;
+    height: 400px;
+    margin-left: 20px;
+    margin-top: 10px;
+    border-right: #333333 solid 1px;
+}
+.uploadform .input1{
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    border:#ccc solid 1px;
+    width: 50%;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 2px;
+}
+.uploadform .input2{
+    display: block;
+    height: 30px;
+    width: 100px;
+    line-height: 30px;
+    /*background-color: #FFD700;*/
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    border-radius: 10px;
+    outline: none;
+    overflow: hidden;
+    border:#ccc solid 1px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.uploadfileinfo{
+    position: absolute;
+    top: 0%;
+    left: 42%;
+    /*background-color: #FFD700;*/
+    width: 55%;
+    height: 400px;
+    margin-top: 10px;
+    overflow: scroll;
+}
+.filestable{
+    margin-left: 30px;
+    text-align: center;
+}
+.filestable tr:hover{
+    background-color: #cccccc;
+}
+.filestable tr.fileonetr td{
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #cccccc;
+    overflow: visible;
+
+}
+.filestable tr.fileonetr td:hover{
+    background-color: #00b4f4;
+}
+.noFileTr{
+    color: red;
+    font-weight: bold;
+}
+.filestable .deluserfile{
+    color: #00adff;
+    cursor: pointer;
+}
+.filestable .deluserfile:hover{
+    color: red;
+    background-color: #00adff;
+    font-weight: bold;
+}
+/*我的收藏*/
+.mycellectfile{
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 80%;
+    height: 450px;
+    /*border: #0e99ff solid 1px;*/
+    overflow: auto;
+}
+.mycellecttable{
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 5px;
+}
+ .mycellecttable tr,.mycellecttable td{
+    border: #cc2b00 solid 1px;
+}
+.mycellectfirsttr{
+    height: 30px;
+}
+.mycellectfirsttr td{
+    width: 80px;
+}
+.mycellectfirsttr td.filestitle{
+    width: 230px;
+}
+.mycellecttable td.collectdate{
+    width: 180px;
+}
+.mycellectfile .nocollect{
+    position: relative;
+    top: 30%;
+    left: 10%;
+    width: 70%;
+    height: 30px;
+    line-height: 30px;
+    color: #cc0c06;
+    text-align: center;
+}
+.mycellecttable label.removecollect{
+    cursor: pointer;
+    color: #00b4f4;
+}
+
+
+/*参与的话题*/
+.jointopic{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 400px ;
+    border: #FFD700 solid 1px;
+}
+.jointopic .jointhemes{
+    position: absolute;
+    top: 1%;
+    left: 0%;
+    width: 49%;
+    height: 100%;
+    text-align: center
+    /*border: #cc0c06 solid 1px;*/
+}
+.jointhemes,.joinrepy{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    width: 49%;
+    height:100%;
+    text-align: center;
+    overflow: scroll;
+    /*border: #cc0c06 solid 1px;*/
+}
+.jointhemes label,.joinrepy label{
+    display: block;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 10px;
+}
+.jointhemes label.publishtopic{
+    background-color: #b9fcff;
+}
+.joinrepy label.repytopic{
+    background-color: #f5ffc1;
+}
+.nothemes,.norepythemes{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 20%;
+    color: #cc0c06;
+}
+.publishtables, .repytables{
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 10px;
+    table-layout: fixed;
+}
+.publishtables tr,.publishtables td{
+    border: #999999 solid 1px;
+    overflow: visible;
+}
+.publishtables tr{
+    height: 35px;
+}
+.publishtables td{
+    width: 80px;
+}
+.publishtables td.publishtitle{
+    width: 180px;
+}
+.publishtables td.publictime{
+    width: 150px;
+}
+.publishtables td.themeContext{
+    width: 150px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.publishtables input.trinput{
+   padding-top: 10px;
+}
+.publishtables td.editthemes{
+    position: relative;
+    cursor: pointer;
+    width: 35px;
+}
+.publishtables td.editthemes:hover{
+    background-color: #FFD700;
+}
+
+.publishtables input{
+    height: 20px;
+    width: 20px;
+    color: #00adff;
+}
+.jointhemes .publishmenu{
+    display: block;
+    position: fixed;
+    left: 1%;
+    bottom: 1%;
+    width: 48%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #cccccc;
+}
+/*修改内容*/
+.jointhemes .modifythemes{
+    position: fixed;
+    top: 35%;
+    left: 52%;
+    height: 40%;
+    width: 30%;
+    background-color: #CDCDC1;
+    z-index: 100;
+    display: none;
+}
+.modifythemes .modify-error{
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    height: 15px;
+    width: 15px;
+    cursor: pointer;
+}
+.modify-error img{
+    width: 100%;
+    height: 100%;
+}
+.modifythemes .modifycon{
+    background-color: #ffeb72;
+    width: 100%;
+    height: 100%;
+}
+.modifycon h3{
+    margin-left: 5%;
+    color: red;
+}
+.modifycon .modifyinp{
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    width: 100%;
+    height: 30%;
+    /*background-color: #00b4f4;*/
+
+}
+.modifycon label{
+    font-weight: bold;
+    text-align: left;
+    display: block;
+}
+.modifycon input{
+    display: block;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    height: 40%;
+    width: 70%;
+    font-size: 18px;
+}
+.modifycon .modify-textarea{
+    position: absolute;
+    top:40%;
+    height: 40%;
+    width: 100%;
+}
+.modify-textarea textarea{
+    height: 100%;
+    width: 100%;
+    resize: none;
+    font-size: 16px;
+}
+.modifycon .modifythemes{
+    display: block;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    height: 10%;
+    width: 30%;
+    background-color: #4381ff;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+/*回复内容*/
+
+.joinrepy .modify-repybox{
+    position: fixed;
+    top: 35%;
+    left: 15%;
+    height: 40%;
+    width: 30%;
+    background-color: #b3ff61;
+    z-index: 100;
+    display: none;
+}
+.mod-reptitle{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0px auto;
+    width: 100%;
+    height: 10%;
+    line-height: 10%;
+    color: #ff182c;
+    font-weight: bold;
+    padding-top: 10px;
+    cursor:default;
+}
+.mod-repy-error{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+    z-index: 3333;
+}
+.mod-repy-error img{
+    height: 100%;
+    width: 100%;
+}
+
+.mod-rep-theTitle{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    line-height: 10%;
+    background-color: #0fff7e;
+}
+.mod-rep-theTitle label{
+   position: absolute;
+    top: 0px;
+    left: 0;
+    width: 25%;
+    height: 100%;
+    padding-top: 10px;
+    line-height: 10%;
+    display: block;
+}
+.mod-rep-theTitle .mod-themestitle{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 75%;
+    height: 10%;
+    padding-top: 10px;
+    line-height: 10%;
+    color: #333;
+}
+
+.mod-repcon{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+    line-height: 10%;
+    background-color: #96a2ad;
+}
+.mod-repcon textarea{
+    height: 100%;
+    width: 100%;
+    resize: none;
+    border: none;
+}
+.mod-rep-submit{
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    width: 30%;
+    height: 10%;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    padding-bottom: 1%;
+    background-color: #4381ff;
+}
+
+
+.joinrepy .repymenu{
+    display: block;
+    position: fixed;
+    left: 50%;
+    bottom: 1%;
+    width: 48%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #b3bfca;
+}
+.publishmenu ul,.repymenu ul{
+    list-style: none;
+}
+.publishmenu ul li,.repymenu ul li{
+    float: left;
+    margin-left: 35px;
+    padding: 0px 10px;
+    color: #cc2b00;
+    cursor: pointer;
+    font-weight: bold;
+}
+.publishmenu ul li:hover,.repymenu ul li:hover{
+    background-color: #00b4f4;
+}
+.publishmenu ul li img,.repymenu ul li img{
+    margin-right: 10px;
+}
+
+.repytables tr,.repytables td{
+    border: #cccccc solid 1px;
+}
+.repytables td.repycontext{
+    width: 300px;
+}
+.repytables tr{
+   height: 35px;
+
+}
+.repytables td{
+    width: 150px;
+
+}
+.themesimgbox{
+    float: left;
+    margin-left: 15px;
+    margin-right: -20px;
+}
+.repytables input{
+    height: 20px;
+    width: 20px;
+    color: #00adff;
+}
+
+/*表格奇偶行显示不同颜色*/
+/*回复的话题不同行颜色*/
+.themestabEven{
+  background-color: #bcb188;
+}
+.themestabOdd{
+ background-color: #e3d8a5;
+}
+
+.repytabEven{
+    background-color: #a9a98c;
+}
+.repytabOdd{
+    background-color: #d6d6b5;
+}
+
+
+/*公共幕布*/
+.publicbox{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #00b4f4;
+    opacity: 0.3;
+    z-index: 102;
+    display: none;
+}

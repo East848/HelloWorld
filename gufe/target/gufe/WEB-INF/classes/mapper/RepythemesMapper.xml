@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gufe.dao.RepyThemesDao">
+    <resultMap id="repyResultMap" type="RepyThemes">
+        <id property="rId" column="rid"/>
+        <result property="repyContext" column="repycontext"/>
+        <result property="repyTime" column="repytime"/>
+        <association property="user" column="uid" javaType="User">
+            <id property="uId" column="uid"/>
+            <result property="userName" column="username"/>
+            <result property="headPicPath" column="headpicpath"/>
+        </association>
+    </resultMap>
+    <resultMap id="oneRepyResultMap" type="RepyThemes">
+        <id property="rId" column="rid"/>
+        <result property="repyContext" column="repycontext"/>
+        <result property="repyTime" column="repytime"/>
+        <association property="themes" column="tid" javaType="Themes">
+            <id property="tId" column="tid"/>
+            <result property="themeTitle" column="themetitle"/>
+        </association>
+    </resultMap>
+    <insert id="addRepyThemes" parameterType="RepyThemes" useGeneratedKeys="true" keyProperty="rId">
+        INSERT INTO  repythemes(repyContext,repyTime,uid,tid)
+        VALUES (#{repyContext},#{repyTime},#{user.uId},#{themes.tId})
+    </insert>
+    <select id="getAllRepyThemes" parameterType="java.lang.Integer" resultMap="repyResultMap" >
+      SELECT
+        repythemes.rid,
+        repythemes.repycontext,
+        repythemes.repytime,
+        repythemes.tid,
+        `user`.uid,
+        `user`.username,
+        `user`.headpicpath
+        FROM
+        repythemes
+        INNER JOIN `user` ON repythemes.uid = `user`.uid
+        WHERE repythemes.tid = #{tId}
+    </select>
+    <select id="getOneRepyThemesList" parameterType="Integer" resultMap="oneRepyResultMap">
+       SELECT
+        repythemes.rid,
+        repythemes.repycontext,
+        repythemes.repytime,
+        `user`.uid,
+        `user`.username,
+        themes.tid,
+        themes.themetitle
+        FROM
+        repythemes
+        INNER JOIN `user` ON repythemes.uid = `user`.uid
+        INNER JOIN themes ON repythemes.tid = themes.tid
+        WHERE repythemes.uid = #{uId}
+
+    </select>
+    <delete id="delRepyThemes" parameterType="int[]">
+        DELETE FROM repythemes
+        WHERE repythemes.rid IN
+        <foreach collection="array" item="ridItem" index="index" open="(" separator="," close=")">
+            #{ridItem}
+        </foreach>
+    </delete>
+    <update id="modifyRepyContext">
+        UPDATE repythemes
+        SET repycontext = #{modifyRepyContext},repytime = #{moidfyDate}
+        WHERE rid = #{rId}
+    </update>
+
+
+</mapper>

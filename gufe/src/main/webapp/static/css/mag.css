@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headetitle{
+    height: 10%;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+.headetitle span{
+    position: absolute;
+    top: 2%;
+    left: 47%;
+}
+.tagTitle{
+    height: 800px;
+    width: 15%;
+    background-color: burlywood;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+    border: #CDCDC1 solid 1px;
+}
+.tagTitle ul{
+    list-style: none;
+}
+.tagTitle ul li{
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    width: 100%;
+    line-height: 40px;
+    border: blue  1px;
+    border-bottom-style: solid;
+    color: brown;
+}
+.tagTitle .act{
+    color: red;
+    background-color: #FFD700;
+}
+.tagTitle ul li:hover{
+    color: red;
+    background-color: #FFD700;
+}
+.tagTitle .one{
+    color: #333;
+    font-weight: bold;
+}
+.Mangcontent{
+    position: absolute;
+    top: 60px;
+    left: 15%;
+    height: 800px;
+    width: 85%;
+    background-color: #FDF5E6;
+}
+.con{
+    display: none;
+}
+
+/*用户管理*/
+.userMang{
+    height: 800px;
+    width: 100%;
+    display: block;
+}
+/*查询标签*/
+.userEditTag{
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 50px;
+    width: 100%;
+}
+.allUserTag,.oneUserTag{
+    display: block;
+    margin-top: 2.5px;
+    height: 45px;
+    width: 15%;
+    float: left;
+    margin-left: 5%;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 45px;
+    background-color: #26ff51;
+    cursor: pointer;
+}
+.userEditTag .oneinput{
+    position: absolute;
+    top: 10px;
+    left: 42%;
+    height: 30px;
+    width: 30%;
+}
+.usermagCon{
+    position: absolute;
+    top: 50px;
+    left:0;
+    width: 100%;
+    height: 750px;
+}
+.userMangTable{
+    display: block;
+    position: relative;
+    top: 0;
+    left: 10px;
+    width: 80%;
+    font: 16px  "宋体";
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+.userMangTable td{
+    border: #53e983 solid 1px;
+}
+.userMangTable td{
+    background:#C7DDEE none repeat-x scroll center left;
+    color:#000;
+    height: 30px;
+    width: 150px;
+}
+.userMangTable .magdelete {
+    cursor: pointer;
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
+/*文件管理*/
+.fileMang{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 800px;
+    width: 100%;
+    background-color: #9aaacc;
+    overflow: visible;
+}
+.fileMang .MfilesMenu{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 50px;
+    width: 100%;
+    background-color: #f3f3f3;
+ }
+.MfilesMenu ul{
+    position: absolute;
+    top: 0%;
+    left: 0;
+    height: 50px;
+    width: 100%;
+}
+.MfilesMenu ul li{
+    display: block;
+    height: 50px;
+    width: 15%;
+    margin-left: 5%;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    background-color: #068aff;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.fileMang .MfilesCon{
+    position: absolute;
+    top: 55px;
+    left: 0;
+}
+.MfilesCon .MfilesTable{
+    border-collapse: collapse;
+    text-align: center;
+    color: white;
+}
+.MfilesTable .filestr{
+    font-weight: bold;
+    color: blue;
+}
+.MfilesTable td{
+    border: #cc2b00 solid 1px;
+    width: 135px;
+}
+.MfilesTable td.filestitle{
+    width: 200px;
+}
+.MfilesTable .removefile{
+    color: #cc2b00;
+    cursor: pointer;
+    font-weight: bold;
+}

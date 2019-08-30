@@ -1,0 +1,192 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.home-top{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 10%;
+    background-color: #eafcff;
+}
+.home-top .logo-img{
+    position: absolute;
+    top: 0px;
+    left: 1%;
+    width: 10%;
+    height: 100%;
+    cursor: pointer;
+}
+.logo-img img{
+    height: 100%;
+    width: 100%;
+}
+.top-nav {
+    position: absolute;
+    top: 0%;
+    left: 12%;
+    width: 35%;
+    height: 100%;
+    /*border: red solid 1px;*/
+}
+.top-nav ul{
+    list-style: none;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+}
+.top-nav ul li {
+    display: block;
+    float: left;
+    margin-left: 10%;
+    width: auto;
+    height: 100%;
+    /*background-color: #e2e2e2;*/
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #6b6b6b;
+}
+.top-search{
+    position: absolute;
+    top: 0%;
+    left: 48%;
+    width: 30%;
+    height: 100%;
+}
+.search-input{
+    height: 100%;
+    width: 80%;
+    float: left;
+    display: none;
+}
+.search-input input{
+    height: 50%;
+    width: 100%;
+    border-radius: 2%;
+    margin-top: 4%;
+    outline: none;
+    border: #9aaacc solid 1px;
+}
+.search-button{
+    height: 100%;
+    width: 20%;
+    float: left;
+    cursor: pointer;
+}
+.search-img{
+    height: 30%;
+    width: 30%;
+    float: left;
+}
+.search-img img{
+    height: 80%;
+    width: 80%;
+    margin-top: 80%;
+    margin-top: 80%;
+    margin-left: 20%;
+}
+.search-lab{
+    height: 100%;
+    width: 50%;
+    text-align: center;
+    line-height: 50px;
+    float: left;
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.top-user{
+    position: absolute;
+    top: 0%;
+    left: 79%;
+    width: 21%;
+    height: 100%;
+    /*border: red solid 1px;*/
+}
+
+.top-user .usersign{
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.usersign .login, .usersign .reg{
+    display: block;
+    height: 30px;
+    width: 20%;
+    float: left;
+    /*background-color: #00adff;*/
+    text-align: center;
+    margin-top: 6%;
+    font-weight: bold;
+    cursor: pointer;
+}
+.usersign .login{
+    margin-left: 25%;
+}
+.usersign .reg{
+    margin-left: 5%;
+}
+
+.top-user .top-sign-result{
+    height: 100%;
+    width: 100%;
+    display: block;
+    /*background-color: #00adff;*/
+}
+.top-sign-result .sr-name{
+    float: left;
+    margin: 6% 0;
+    text-decoration: solid;
+    color: #ff182c;
+    font-weight: bold;
+}
+.userheadimg{
+    margin-left: 40%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+.userheadimg img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.top-sign-result .usermenu{
+    display: none;
+}
+.menubox{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 200px;
+    width: 120px;
+    display: none;
+    z-index: 99999999;
+}
+.usermenu ul{
+    position: absolute;
+    top: 0;
+    left: 65%;
+    list-style: none;
+    background-color: #2882cc;
+    width: 32%;
+}
+.usermenu ul li{
+    cursor: pointer;
+    margin-top: 10px;
+    width: auto;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.usermenu ul li:hover{
+    background-color: #c2cc49;
+    color: red;
+}

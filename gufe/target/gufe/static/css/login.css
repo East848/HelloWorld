@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.loginbox{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    background-image: url("/static/images/loginimg.png");
+    height: 45%;
+    width: 1360px;
+    overflow: hidden;
+}
+.userform{
+    position: relative;
+    margin-top: 1%;
+    left: 35%;
+    font-size: 1.2em;
+}
+.userform h3{
+    margin-left: 6%;
+    margin-top: 2%;
+    color: #FFD700;
+}
+.userform .loginLable{
+    color: #FFD700;
+}
+.userform input{
+    margin-left: 3%;
+    height: 30px;
+    width: 250px;
+}
+button.login{
+    margin-top: 2em;
+    margin-left: 8%;
+    height: 2.5em;
+    width: 8em;
+    color: red;
+    font-weight: bold;
+    font-size: 0.8em;
+    border-radius: 10px;
+    border-color: transparent;
+    background-color: #00b4f4;
+    outline: none;
+    outline-style: none;
+    outline-color: invert;
+}

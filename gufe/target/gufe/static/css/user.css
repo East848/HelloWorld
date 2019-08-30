@@ -1,0 +1,249 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.user-top{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 5%;
+}
+.usercon{
+    position: fixed;
+    top: 6%;
+    left: 0%;
+    width: 100%;
+    height: 500px;
+}
+.usercon img{
+    position: absolute;
+    top: 11%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    z-index: -10;
+}
+.usercon .logincon{
+    position: absolute;
+    top:10%;
+    left: 0;
+    width: 100%;
+    height: 500px;
+   display: none;
+
+}
+.userform{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    width: 50%;
+    height: 350px;
+    color: #e0ecf7;
+}
+.userform label{
+    margin-left: 26%;
+    margin-top: 10px;
+
+}
+.userform input{
+    outline: none;
+    width: 50%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: #96a2ad solid 1px; ;
+    border-radius: 10px;
+    color: #e0ecf7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.userform small.forget{
+    margin-left: 66%;
+    cursor: pointer;
+    color: #2bbafb;
+}
+.userform button{
+    display: block;
+    height: 50px;
+    width: 35%;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border: #cccccc solid 1px;
+    color: #e0ecf7;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 33%;
+    margin-top: 20px;
+}
+.userform button:hover{
+    border: none;
+    background-color: #00adff;
+}
+.usercon .regcon{
+    display: block;
+}
+.regtab{
+    /*border: #00adff solid 1px;*/
+    position: absolute;
+    top: 25%;
+    left: 30%;
+    height: 250px;
+    width: 30%;
+}
+.regtab td{
+    text-align: center;
+}
+.regtab label{
+    color: white;
+    font-size: 1.1em;
+}
+.regtab input{
+    outline: none;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    margin-left: 1%;
+    background: transparent;
+    border: #96a2ad solid 1px; ;
+    border-radius: 10px;
+    color: #e0ecf7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.regtab button{
+    display: block;
+    height: 45px;
+    width: 120%;
+    border-radius: 10px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    border: #cccccc solid 1px;
+    color: #e0ecf7;
+    font-size: 1.1em;
+    margin-left: 180%;
+}
+.regtab button:hover{
+    border: none;
+    background-color: #00adff;
+}
+
+
+/*找回密码*/
+.forgetbox{
+    display: none;
+    position: absolute;
+    top: 20%;
+    left:30%;
+    height: 200px;
+    width: 45%;
+    border: #FFD700 solid 1px;
+    background-color: #e3e3e3;
+    z-index: 66;
+}
+.errorbox{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.errorbox img{
+    width: 100%;
+    height: 100%;
+}
+.forgetbox .optiobox{
+    display: block;
+    position: absolute;
+    top: 40px;
+    left:20%;
+    width: 60%;
+    height: 50%;
+}
+.optiobox label{
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #cc2b00;
+}
+.optiobox input{
+    outline: none;
+    width: 70%;
+    height: 25px;
+    line-height: 25px;
+    margin-left: 1%;
+    background: transparent;
+    border: #96a2ad solid 1px; ;
+    border-radius: 2px;
+    color: #3f18f7;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.forgetbox .option1{
+    display: block;
+}
+.forgetbox .option2{
+    display: none;
+}
+.option2 button{
+    display: block;
+    width: 20%;
+    height: 25px;
+    background-color: #00adff;
+    color: #ffe422;
+    font-weight: bold;
+    position: absolute;
+    top: 1%;
+    left: 85%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+
+}
+.forget-result{
+    text-align: center;
+}
+.forgetbox .forgetnum{
+    position: absolute;
+    top: 150px;
+    left: 40%;
+}
+.forgetnum label.forlab{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #2e7de9;
+    color: white;
+}
+.forgetnum label.tarlab{
+    display: block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    float: left;
+    margin-left: 20px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #FFD700;
+    color: white;
+}
+.forget-result{
+    position: absolute;
+    top: 85px;
+    left: 20%;
+
+}

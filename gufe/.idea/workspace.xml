@@ -1,0 +1,1181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="gufe:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/views/themesdetail.jsp" line="24" />
+    <bookmark url="file://$PROJECT_DIR$/src/main/source/mapper/CollectMapper.xml" line="19" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7b1f8d7-b29f-4f3c-9211-2db31f2f8770" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="gufebase" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-572">
+              <caret line="100" column="45" lean-forward="true" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+              <folding>
+                <element signature="method#loginUser#0;class#UserController#0" expanded="false" />
+                <element signature="method#userquit#0;class#UserController#0" expanded="false" />
+                <element signature="method#userinfo#0;class#UserController#0" expanded="false" />
+                <element signature="method#updateUserInfo#0;class#UserController#0" expanded="false" />
+                <element signature="method#updateHeadPic#0;class#UserController#0" expanded="false" />
+                <element signature="method#forgetPassword#0;class#UserController#0" expanded="false" />
+                <element signature="method#hotauthor#0;class#UserController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/source/mapper/UserMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+              <folding>
+                <marker date="1555334602776" expanded="true" signature="307:364" ph="SELECT telep... user" />
+                <marker date="1555334602776" expanded="true" signature="474:557" ph="SELECT usern... user" />
+                <marker date="1555334602776" expanded="true" signature="685:802" ph="INSERT INTO user... " />
+                <marker date="1555334602776" expanded="true" signature="869:917" ph="SELECT uid,u... user" />
+                <marker date="1555334602776" expanded="true" signature="1008:1161" ph="SELECT uid,u... user" />
+                <marker date="1555334602776" expanded="true" signature="1242:1330" ph="UPDATE user " />
+                <marker date="1555334602776" expanded="true" signature="1409:1500" ph="UPDATE user " />
+                <marker date="1555334602776" expanded="true" signature="1599:1674" ph="SELECT headp... user" />
+                <marker date="1555334602776" expanded="true" signature="1773:1872" ph="SELECT passw... USER" />
+                <marker date="1555334602776" expanded="true" signature="1973:2114" ph="SELECT uid,u... user" />
+                <marker date="1555334602776" expanded="true" signature="2188:2417" ph="UPDATE user " />
+                <marker date="1555334602776" expanded="true" signature="2487:2690" ph="SELECT `user... user" />
+                <marker date="1555334602776" expanded="true" signature="2764:2807" ph="DELETE FROM " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-mvc" />
+        <option value="spring-mybatis" />
+        <option value="mybatis-config" />
+        <option value="spring-servies" />
+        <option value="Singleton" />
+        <option value="mapper" />
+        <option value="Interface" />
+        <option value="Jsp File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>usermenu</find>
+      <find>tdimg</find>
+      <find>peopimg</find>
+      <find>filestr</find>
+      <find>tblable2</find>
+      <find>addrepythemes</find>
+      <find>themeparmid</find>
+      <find>repyedit</find>
+      <find>userLogin</find>
+      <find>launchtheme</find>
+      <find>editl3</find>
+      <find>removecollect</find>
+      <find>delfilecollect</find>
+      <find>allUser</find>
+      <find>DataWriterTable</find>
+      <find>usermagTr0</find>
+      <find>userMangTable</find>
+      <find>getalluser</find>
+      <find>tagTitle</find>
+      <find>Mangcontent</find>
+      <find>temH2`</find>
+      <find>userMang</find>
+      <find>usermagCon</find>
+      <find>fileMang</find>
+      <find>delfile</find>
+      <find>allListFile</find>
+      <find>TTopMessageImg</find>
+      <find>first</find>
+      <find>topthree</find>
+      <find>imgplay</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>uid</replace>
+      <replace>themesTimeUtil</replace>
+      <replace>editdata</replace>
+      <replace>UserDataWriterTable</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>E:\workspace\work\gufe\target\gufe\WEB-INF\Manager</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/dao/RepyThemesDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/impl/RepyThemesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/controller/RepyThemesController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/personal-util.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/test/TestJ.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/util/FileUitls.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/impl/CollectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/CollectService.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/personal.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/pojo/User.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/views/personal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/source/mapper/ThemesMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/dao/ThemesDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/ThemesService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/impl/ThemesServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/controller/ThemesController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/jsp/index-foot.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/jquery-3.2.1.min.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/user.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/index-top.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/index-top.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/topic.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/base.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/controller/PageController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/themesdetail.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/topic.js" />
+        <option value="$PROJECT_DIR$/src/main/source/mapper/CollectMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/dao/CollectDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/controller/CollectController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/personal.js" />
+        <option value="$PROJECT_DIR$/src/main/source/spring/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/controller/interceptor/ManagerInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/msg.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/base.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/mag.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/controller/ManagerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/dao/FileDao.java" />
+        <option value="$PROJECT_DIR$/src/main/source/mapper/FileMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/FileService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/services/impl/FileServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/controller/FileController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/mag.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Manager/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/gufe.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/index.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/index.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/gufe/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/source/mapper/UserMapper.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Tool/Dev/apache/maven3.6" />
+        <option name="userSettingsFile" value="D:\Tool\Dev\apache\maven3.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gufe Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gufe Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="gufe Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="28" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JSP Inspections</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gufe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gufe" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="source" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="nodejs_interpreter_path" value="D:/Tool/Dev/nodejs/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="SearchEverywhereHistoryKey" value="pers&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/personal.js&#10;inde&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/index.js&#10;index&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/css/index.css&#10;gufe&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/WEB-INF/jsp/gufe.jsp&#10;w&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/WEB-INF/jsp/views/wisdombase.jsp&#10;base&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/base.js&#10;mag&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/css/mag.css&#10;msgcss&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/css/msg.css&#10;magc&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/css/mag.css&#10;spring&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/source/spring/spring-mvc.xml&#10;topic&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/topic.js&#10;userc&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/java/com/gufe/controller/UserController.java&#10;page&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/java/com/gufe/controller/PageController.java&#10;themejsp&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/WEB-INF/jsp/views/themesdetail.jsp&#10;themesjs&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/themesdetail.js&#10;themesd&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/themesdetail.js&#10;re&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/reg.js&#10;spri&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/source/spring/spring-mvc.xml&#10;top&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/topic.js&#10;basecss&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/css/base.css&#10;themes&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/java/com/gufe/controller/ThemesController.java&#10;theme&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/java/com/gufe/controller/ThemesController.java&#10;indext&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/css/index-top.css&#10;userm&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/source/mapper/UserMapper.xml&#10;user.js&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/user.js&#10;reg&#9;FILE&#9;file://E:/workspace/工作/gufe/src/main/webapp/static/js/reg.js&#10;min&#9;FILE&#9;file://E:/workspace/work/test/gufe/src/main/webapp/static/js/jquery-3.2.1.min.js&#10;in&#9;FILE&#9;file://E:/workspace/work/test/gufe/src/main/webapp/jsp/index-foot.jsp&#10;foot&#9;FILE&#9;file://E:/workspace/work/test/gufe/src/main/webapp/jsp/index-foot.jsp&#10;gu&#9;FILE&#9;file://E:/workspace/work/test/gufe/src/main/webapp/WEB-INF/jsp/gufe.jsp&#10;g&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/WEB-INF/jsp/gufe.jsp&#10;guf&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/WEB-INF/jsp/gufe.jsp&#10;persc&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/css/personal.css&#10;per&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/js/personal-util.js&#10;msg&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/WEB-INF/jsp/views/msg.jsp&#10;p&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/WEB-INF/jsp/views/personal.jsp&#10;r&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/java/com/gufe/controller/RepyThemesController.java&#10;them&#9;PSI&#9;JAVA://com.gufe.dao.ThemesDao&#10;indexcs&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/css/index.css&#10;b&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/js/base.js&#10;wi&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/WEB-INF/jsp/views/wisdombase.jsp&#10;basejs&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/js/base.js&#10;t&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/js/themesdetail.js&#10;themescs&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/css/themesdetail.css&#10;top.&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/js/topic.js&#10;picjs&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/js/topic.js&#10;userjs&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/js/user.js&#10;user&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/java/com/gufe/dao/UserDao.java&#10;ba&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/css/base.css&#10;perso&#9;FILE&#9;file://E:/workspace/work/gufebase/src/main/webapp/static/js/personal.js" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\工作\gufe\src\main\webapp\static\images" />
+      <recent name="E:\workspace\工作\gufe\src\main\webapp\static" />
+      <recent name="E:\workspace\工作\gufe\src\main\webapp\static\images\home" />
+      <recent name="E:\workspace\work\gufebase\src\main\webapp\static\images\personal" />
+      <recent name="E:\workspace\work\gufebase\src\main\webapp\static\images\home" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.gufe.test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\工作\gufe\src\main\webapp\static\images" />
+      <recent name="E:\workspace\work\gufebase\src\main\webapp\jsp" />
+      <recent name="E:\workspace\work\gufe\src\main\webapp\static\images\plugico" />
+      <recent name="E:\workspace\work\gufe\src\main\webapp\static\images\ico" />
+      <recent name="E:\workspace\work\gufe\src\main\webapp" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat8">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+    </configuration>
+    <configuration name="tomcat8" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.35" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="gufe:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_gufebase_5" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49443" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="gufe:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7b1f8d7-b29f-4f3c-9211-2db31f2f8770" name="Default" comment="" />
+      <created>1548752116452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548752116452</updated>
+      <workItem from="1548752121008" duration="751000" />
+      <workItem from="1548810000455" duration="6850000" />
+      <workItem from="1548828612606" duration="922000" />
+      <workItem from="1549845353399" duration="8928000" />
+      <workItem from="1549932591647" duration="9008000" />
+      <workItem from="1549954858048" duration="7115000" />
+      <workItem from="1550018754908" duration="11159000" />
+      <workItem from="1550041233788" duration="5126000" />
+      <workItem from="1550105690964" duration="19855000" />
+      <workItem from="1550191666465" duration="8865000" />
+      <workItem from="1550212054911" duration="6738000" />
+      <workItem from="1550219304613" duration="4777000" />
+      <workItem from="1550290970655" duration="220000" />
+      <workItem from="1550302908953" duration="1753000" />
+      <workItem from="1550385488360" duration="1298000" />
+      <workItem from="1550449755513" duration="26480000" />
+      <workItem from="1550488415252" duration="1097000" />
+      <workItem from="1550536221325" duration="5319000" />
+      <workItem from="1550562899995" duration="508000" />
+      <workItem from="1550563974499" duration="5048000" />
+      <workItem from="1550622496738" duration="4788000" />
+      <workItem from="1550663238312" duration="9733000" />
+      <workItem from="1550708788885" duration="24907000" />
+      <workItem from="1550796372336" duration="13203000" />
+      <workItem from="1550911426484" duration="2576000" />
+      <workItem from="1550986234633" duration="447000" />
+      <workItem from="1551008844655" duration="674000" />
+      <workItem from="1551054309630" duration="25389000" />
+      <workItem from="1551093065776" duration="4618000" />
+      <workItem from="1551100961524" duration="179000" />
+      <workItem from="1551101181496" duration="282000" />
+      <workItem from="1551101508581" duration="8722000" />
+      <workItem from="1551140995022" duration="8832000" />
+      <workItem from="1551161011629" duration="9907000" />
+      <workItem from="1551274374222" duration="8667000" />
+      <workItem from="1551317961920" duration="1638000" />
+      <workItem from="1551337597827" duration="8382000" />
+      <workItem from="1551404406583" duration="7583000" />
+      <workItem from="1551418782200" duration="13632000" />
+      <workItem from="1551439285860" duration="5943000" />
+      <workItem from="1551492048560" duration="12196000" />
+      <workItem from="1551516670722" duration="890000" />
+      <workItem from="1551526384145" duration="3074000" />
+      <workItem from="1551597629406" duration="12952000" />
+      <workItem from="1551659465346" duration="6840000" />
+      <workItem from="1551684367499" duration="2906000" />
+      <workItem from="1551698909017" duration="14437000" />
+      <workItem from="1551746291249" duration="8754000" />
+      <workItem from="1551790135875" duration="7450000" />
+      <workItem from="1551875828400" duration="6906000" />
+      <workItem from="1551883467413" duration="286000" />
+      <workItem from="1551956169393" duration="8378000" />
+      <workItem from="1552014522736" duration="4965000" />
+      <workItem from="1552032679159" duration="4357000" />
+      <workItem from="1552041443611" duration="14577000" />
+      <workItem from="1552060161551" duration="2262000" />
+      <workItem from="1552102123899" duration="16043000" />
+      <workItem from="1552132713486" duration="1027000" />
+      <workItem from="1552217753836" duration="4268000" />
+      <workItem from="1552227384395" duration="2973000" />
+      <workItem from="1552230472365" duration="6357000" />
+      <workItem from="1552264365418" duration="4426000" />
+      <workItem from="1552269584803" duration="21797000" />
+      <workItem from="1552301962114" duration="5306000" />
+      <workItem from="1552313800270" duration="5049000" />
+      <workItem from="1552352674454" duration="27663000" />
+      <workItem from="1552437355252" duration="27757000" />
+      <workItem from="1552480355048" duration="12759000" />
+      <workItem from="1552523483988" duration="27373000" />
+      <workItem from="1552560670180" duration="5776000" />
+      <workItem from="1552609624483" duration="16163000" />
+      <workItem from="1552735212233" duration="1264000" />
+      <workItem from="1552875545241" duration="14603000" />
+      <workItem from="1552894087676" duration="7079000" />
+      <workItem from="1552915357883" duration="7893000" />
+      <workItem from="1552955807927" duration="30757000" />
+      <workItem from="1553041656564" duration="14871000" />
+      <workItem from="1553059273407" duration="2447000" />
+      <workItem from="1553063094397" duration="2525000" />
+      <workItem from="1553065828695" duration="180000" />
+      <workItem from="1553066461609" duration="10283000" />
+      <workItem from="1553128033652" duration="16895000" />
+      <workItem from="1553167604584" duration="787000" />
+      <workItem from="1553170113467" duration="1426000" />
+      <workItem from="1553215569088" duration="6590000" />
+      <workItem from="1553474721531" duration="1156000" />
+      <workItem from="1553482961534" duration="13270000" />
+      <workItem from="1553511195592" duration="4018000" />
+      <workItem from="1553516511323" duration="12066000" />
+      <workItem from="1553559856122" duration="4121000" />
+      <workItem from="1553567258802" duration="18918000" />
+      <workItem from="1553600687702" duration="3678000" />
+      <workItem from="1553646716133" duration="8612000" />
+      <workItem from="1553734569626" duration="10409000" />
+      <workItem from="1553752918765" duration="11902000" />
+      <workItem from="1553773694753" duration="8315000" />
+      <workItem from="1553819565943" duration="18469000" />
+      <workItem from="1553847581181" duration="4259000" />
+      <workItem from="1553922953898" duration="4486000" />
+      <workItem from="1554003095993" duration="9600000" />
+      <workItem from="1554080083511" duration="374000" />
+      <workItem from="1554080891468" duration="16989000" />
+      <workItem from="1554165144127" duration="2339000" />
+      <workItem from="1554207977681" duration="7000" />
+      <workItem from="1554208082994" duration="6990000" />
+      <workItem from="1554251648172" duration="24455000" />
+      <workItem from="1554291185766" duration="9188000" />
+      <workItem from="1554337744627" duration="1016000" />
+      <workItem from="1554880855596" duration="8169000" />
+      <workItem from="1554892691316" duration="6449000" />
+      <workItem from="1555334366447" duration="321000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestJ_TestDelFile - 2019.03.29 at 13h 45m 03s.xml">
+      <configuration name="TestJ.TestDelFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestDelFile - 2019.03.29 at 13h 47m 50s.xml">
+      <configuration name="TestJ.TestDelFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestDelFile - 2019.03.29 at 13h 59m 49s.xml">
+      <configuration name="TestJ.TestDelFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestDelFile - 2019.03.29 at 14h 00m 39s.xml">
+      <configuration name="TestJ.TestDelFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestDelFile - 2019.03.29 at 14h 30m 10s.xml">
+      <configuration name="TestJ.TestDelFile" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestJson - 2019.03.13 at 23h 17m 15s.xml">
+      <configuration name="TestJ.TestJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestJson - 2019.03.13 at 23h 19m 43s.xml">
+      <configuration name="TestJ.TestJson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestUser - 2019.03.20 at 11h 05m 44s.xml">
+      <configuration name="TestJ.TestUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestUser - 2019.03.20 at 12h 40m 07s.xml">
+      <configuration name="TestJ.TestUser" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestJ_TestUser - 2019.03.20 at 13h 21m 37s.xml">
+      <configuration name="TestJ.TestUser" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="915062000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37777779" sideWeight="0.5226929" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44615385" sideWeight="0.4773071" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3192133" sideWeight="0.48395061" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3161876" sideWeight="0.5103093" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2700454" sideWeight="0.5160494" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3931624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37777779" sideWeight="0.5226929" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3931624" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36294895" sideWeight="0.4969743" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36581197" sideWeight="0.4773071" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="CSS Styles" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29198185" sideWeight="0.48395061" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3161876" sideWeight="0.5103093" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991454" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2700454" sideWeight="0.5160494" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="75" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/user.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index-top.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/index-top.css" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/topic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="64" column="32" lean-forward="true" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="112" column="1" lean-forward="true" selection-start-line="112" selection-start-column="1" selection-end-line="112" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/reg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/ThemesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/RepyThemesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="41" column="41" lean-forward="true" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/PageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/views/themesdetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="36" column="31" lean-forward="true" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/themesdetail.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="73" column="10" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="73" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/topic.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="33" column="10" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="33" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/source/mapper/CollectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1554260668560" expanded="true" signature="1467:1568" ph="INSERT INTO collectfiles... " />
+            <marker date="1554260668560" expanded="false" signature="1681:2390" ph="SELECT colle... collectfiles" />
+            <marker date="1554260668560" expanded="true" signature="2022:2085" ph="SELECT `user... user" />
+            <marker date="1554260668560" expanded="true" signature="2390:2391" ph="SELECT colle... collectfiles" />
+            <marker date="1554260668560" expanded="true" signature="2471:2524" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/dao/CollectDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/CollectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="56" column="92" lean-forward="false" selection-start-line="56" selection-start-column="92" selection-end-line="56" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/source/spring/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1898">
+          <caret line="73" column="26" lean-forward="false" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/interceptor/UserLoginInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/services/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/services/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/interceptor/ManagerInterceptor.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/source/mapper/ThemesMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="71" column="28" lean-forward="false" selection-start-line="71" selection-start-column="16" selection-end-line="71" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/msg.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="14" lean-forward="true" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/views/wisdombase.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="37" column="33" lean-forward="true" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/mag.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2262">
+          <caret line="171" column="1" lean-forward="false" selection-start-line="171" selection-start-column="1" selection-end-line="171" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="97" column="0" lean-forward="false" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/util/FileUitls.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="171" column="24" lean-forward="false" selection-start-line="171" selection-start-column="24" selection-end-line="171" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/manager/Messages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="46" column="4" lean-forward="false" selection-start-line="46" selection-start-column="4" selection-end-line="46" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/dao/ThemesDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/source/mapper/FileMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5928">
+          <caret line="228" column="24" lean-forward="false" selection-start-line="228" selection-start-column="24" selection-end-line="228" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/services/impl/FileServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1638">
+          <caret line="106" column="0" lean-forward="false" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/services/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="34" column="3" lean-forward="false" selection-start-line="34" selection-start-column="3" selection-end-line="34" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/dao/FileDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="39" column="43" lean-forward="true" selection-start-line="38" selection-start-column="3" selection-end-line="39" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/FileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2470">
+          <caret line="205" column="35" lean-forward="false" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/mag.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="229" column="5" lean-forward="false" selection-start-line="229" selection-start-column="5" selection-end-line="229" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/ManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="67" column="23" lean-forward="false" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/Manager/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="34" column="29" lean-forward="false" selection-start-line="34" selection-start-column="29" selection-end-line="34" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/personal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/home/first-img.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/home/first-dus2.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/home/first-dus1.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/gufe.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding>
+            <marker date="1554896710310" expanded="true" signature="5064:5076" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10556">
+          <caret line="406" column="1" lean-forward="false" selection-start-line="406" selection-start-column="1" selection-end-line="406" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/loginimg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/login-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/images/qq-logo.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="79" column="31" lean-forward="true" selection-start-line="79" selection-start-column="31" selection-end-line="79" selection-end-column="31" />
+          <folding>
+            <element signature="e#139#365#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/gufe/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-572">
+          <caret line="100" column="45" lean-forward="true" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+          <folding>
+            <element signature="method#loginUser#0;class#UserController#0" expanded="false" />
+            <element signature="method#userquit#0;class#UserController#0" expanded="false" />
+            <element signature="method#userinfo#0;class#UserController#0" expanded="false" />
+            <element signature="method#updateUserInfo#0;class#UserController#0" expanded="false" />
+            <element signature="method#updateHeadPic#0;class#UserController#0" expanded="false" />
+            <element signature="method#forgetPassword#0;class#UserController#0" expanded="false" />
+            <element signature="method#hotauthor#0;class#UserController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/source/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="18" column="63" lean-forward="true" selection-start-line="18" selection-start-column="63" selection-end-line="18" selection-end-column="63" />
+          <folding>
+            <marker date="1555334602776" expanded="true" signature="307:364" ph="SELECT telep... user" />
+            <marker date="1555334602776" expanded="true" signature="474:557" ph="SELECT usern... user" />
+            <marker date="1555334602776" expanded="true" signature="685:802" ph="INSERT INTO user... " />
+            <marker date="1555334602776" expanded="true" signature="869:917" ph="SELECT uid,u... user" />
+            <marker date="1555334602776" expanded="true" signature="1008:1161" ph="SELECT uid,u... user" />
+            <marker date="1555334602776" expanded="true" signature="1242:1330" ph="UPDATE user " />
+            <marker date="1555334602776" expanded="true" signature="1409:1500" ph="UPDATE user " />
+            <marker date="1555334602776" expanded="true" signature="1599:1674" ph="SELECT headp... user" />
+            <marker date="1555334602776" expanded="true" signature="1773:1872" ph="SELECT passw... USER" />
+            <marker date="1555334602776" expanded="true" signature="1973:2114" ph="SELECT uid,u... user" />
+            <marker date="1555334602776" expanded="true" signature="2188:2417" ph="UPDATE user " />
+            <marker date="1555334602776" expanded="true" signature="2487:2690" ph="SELECT `user... user" />
+            <marker date="1555334602776" expanded="true" signature="2764:2807" ph="DELETE FROM " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>gufe:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gufe</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.1.11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

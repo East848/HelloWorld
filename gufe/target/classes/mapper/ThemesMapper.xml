@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gufe.dao.ThemesDao">
+    <resultMap id="themesMap" type="Themes">
+        <id property="tId" column="tid"/>
+        <result property="themeTitle" column="themetitle"/>
+        <result property="themeContext" column="themecontext"/>
+        <result property="commSum" column="commsum"/>
+        <result property="releaseTime" column="releasetime"/>
+        <association property="user" column="uid" javaType="User">
+            <id property="uId" column="uid" />
+            <result property="userName" column="username"/>
+            <result property="headPicPath" column="headpicpath"/>
+        </association>
+    </resultMap>
+    <!--添加主题-->
+    <insert id="addTheme" parameterType="Themes" useGeneratedKeys="true" keyProperty="tId">
+        INSERT INTO themes(themetitle,themecontext,commsum,releasetime,uid)
+        VALUES (#{themeTitle},#{themeContext},#{commSum},#{releaseTime},#{user.uId})
+    </insert>
+    <!--查询所有主题-->
+    <select id="getAllThemes" resultMap="themesMap">
+        SELECT tid,themetitle,themecontext,commsum,releasetime,themes.uid,`user`.username,`user`.headpicpath FROM themes
+        INNER JOIN `user` ON themes.uid = `user`.uid
+    </select>
+    <!--根据主题id查询主题-->
+    <select id="getOnethemes" parameterType="Integer" resultMap="themesMap">
+       SELECT
+        themes.tid,
+        themes.themetitle,
+        themes.themecontext,
+        themes.commsum,
+        themes.releasetime,
+        themes.uid,
+        `user`.uid,
+        `user`.username
+        FROM
+        themes
+        INNER JOIN `user` ON themes.uid = `user`.uid
+        WHERE themes.tid =#{tId}
+    </select>
+
+    <update id="addCommentSum" parameterType="Integer">
+        UPDATE themes SET commsum = commsum+1 WHERE tid = #{tId}
+    </update>
+    <select id="getUserThemesList" parameterType="Integer" resultMap="themesMap">
+         SELECT tid,themetitle,themecontext,commsum,releasetime,uid FROM themes WHERE uid =#{uId}
+    </select>
+    <delete id="delThemes" parameterType="int[]">
+        DELETE FROM themes
+        WHERE themes.tid IN
+         <!--用来循环 collection : 用来指定循环的数据的类型 可以填的值有：array,list,map item
+         -->
+        <foreach item="item" collection="array" index="no" open="(" separator="," close=")">
+            #{item}
+        </foreach>
+    </delete>
+    <update id="minCommentSum" parameterType="Integer">
+         UPDATE themes
+         SET commsum = commsum-1
+         WHERE themes.tid = #{tId}
+    </update>
+    <update id="moidfythemes">
+        UPDATE themes
+        SET
+        themetitle = #{modifyTitle},themecontext = #{modifyContext},releasetime = #{moidfyDate}
+        WHERE tid = #{tId}
+    </update>
+
+    <select id="themesTopTen" resultMap="themesMap" >
+        SELECT
+            tid,
+            themetitle,
+            themecontext,
+            commsum,
+            releasetime,
+            themes.uid,
+            `user`.username,
+            `user`.headpicpath
+        FROM
+            themes
+        INNER JOIN `user` ON themes.uid = `user`.uid
+        ORDER BY commsum DESC
+        LIMIT 10
+    </select>
+</mapper>

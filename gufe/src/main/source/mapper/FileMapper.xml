@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gufe.dao.FileDao">
+    <resultMap id="FilesMap" type="Files">
+        <id property="fId" column="fid"/>
+        <result property="fIco" column="fico"/>
+        <result property="fTitle" column="ftitle"/>
+        <result property="fSize" column="fsize"/>
+        <result property="uploadDate" column="uploaddate"/>
+        <result property="fPath" column="fpath"/>
+        <result property="downloadSum" column="downloadsum"/>
+        <result property="collectSum" column="collectsum"/>
+        <association property="user" column="uid" javaType="User">
+            <id property="uId" column="uid"/>
+            <result property="userName" column="username"/>
+        </association>
+    </resultMap>
+    <insert id="addFile" parameterType="Files" useGeneratedKeys="true" keyProperty="fId">
+      INSERT INTO files(fico,ftitle,fsize,uploaddate,fpath,downloadsum,collectsum,uid)
+      VALUES (#{fIco},#{fTitle},#{fSize},#{uploadDate},#{fPath},#{downloadSum},#{collectSum},#{user.uId})
+    </insert>
+    <select id="allListFile" resultMap="FilesMap">
+        SELECT fid,fico,ftitle,fsize,uploaddate,fpath,downloadsum,collectsum, `user`.uid,`user`.username
+        FROM  files
+        INNER JOIN `user` ON files.uid = `user`.uid
+    </select>
+
+    <select id="userListFile" parameterType="Integer" resultMap="FilesMap">
+        SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+            FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+            WHERE    `user`.uid = #{uId}
+    </select>
+    <select id="getUserPic" parameterType="Integer" resultType="String">
+        SELECT fpath
+        FROM files
+        INNER JOIN `user` ON files.uid = `user`.uid
+        WHERE files.uid = #{uId} AND fico IN ('jpg','png','jpeg','ioc','gif')
+    </select>
+
+    <update id="updateDownloadSum" parameterType="java.lang.Integer">
+      UPDATE files SET downloadsum = downloadsum+1 WHERE fid =#{fId}
+    </update>
+    <update id="updateCollectSum" parameterType="java.lang.Integer">
+        UPDATE files SET collectsum = collectsum+1 WHERE fid =#{fId}
+    </update>
+
+    <!--文件分类-->
+    <select id="wordList" parameterType="String" resultMap="FilesMap">
+       SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+        FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+        WHERE fico IN ('doc','docx')
+    </select>
+    <select id="excelList" parameterType="String" resultMap="FilesMap">
+        SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+        FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+        WHERE fico IN ('xls','xlsx')
+    </select>
+    <select id="pptList" parameterType="String" resultMap="FilesMap">
+         SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+        FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+        WHERE fico IN ('ppt','pptx')
+    </select>
+    <select id="pdfList" parameterType="String" resultMap="FilesMap">
+         SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+        FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+        WHERE fico IN ('pdf')
+    </select>
+    <select id="picList" parameterType="String" resultMap="FilesMap">
+         SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+        FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+        WHERE fico IN ('jpg','png','jpeg','ioc','gif')
+    </select>
+    <select id="otherList" parameterType="String" resultMap="FilesMap">
+         SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+        FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+        WHERE fico IN ('txt')
+    </select>
+
+    <select id="getSearchList" parameterType="String" resultMap="FilesMap">
+      SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+        FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+        WHERE ftitle LIKE CONCAT(CONCAT('%',#{searchCon},'%')) OR `user`.username LIKE CONCAT(CONCAT('%',#{searchCon},'%'))
+    </select>
+    <select id="downloadListTopTen" resultMap="FilesMap">
+      SELECT
+            files.fid,
+            files.fico,
+            files.ftitle,
+            files.fsize,
+            files.uploaddate,
+            files.fpath,
+            files.downloadsum,
+            files.collectsum,
+            `user`.uid,
+            `user`.username
+        FROM
+            files
+            INNER JOIN `user` ON files.uid = `user`.uid
+        ORDER BY downloadsum DESC LIMIT 10
+    </select>
+
+    <!--文件删除-->
+    <select id="getFilePath" parameterType="Integer" resultType="String">
+        SELECT fpath
+        FROM files
+        WHERE files.fid = #{fId}
+    </select>
+    <delete id="delFile" parameterType="Integer">
+        DELETE FROM files
+        WHERE files.fid = #{fId}
+    </delete>
+    <!--移除文件收藏  对文件收藏数量减1-->
+    <update id="SubFileSum" parameterType="Integer">
+        UPDATE files SET  collectsum = collectsum - 1
+        WHERE fid = #{fId}
+    </update>
+
+
+    <select id="SortBDtListFile" resultMap="FilesMap">
+        SELECT fid,fico,ftitle,fsize,uploaddate,fpath,downloadsum,collectsum, `user`.uid,`user`.username
+        FROM  files
+                INNER JOIN `user` ON files.uid = `user`.uid
+        ORDER BY
+        files.downloadsum DESC
+    </select>
+    <select id="SortBCtListFile" resultMap="FilesMap">
+        SELECT fid,fico,ftitle,fsize,uploaddate,fpath,downloadsum,collectsum, `user`.uid,`user`.username
+        FROM  files
+        INNER JOIN `user` ON files.uid = `user`.uid
+        ORDER BY
+        files.collectsum DESC
+    </select>
+
+</mapper>

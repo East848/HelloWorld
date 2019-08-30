@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.msgbhead{
+    position: absolute;
+    left: 1px;
+    top: 1px;
+    height: 30%;
+    width: 100%;
+    background-color: #FFD700;
+}
+.msgbhead img{
+    height: 100%;
+    width: 100%;
+}
+.msgbox{
+    position: relative;
+    top: 30%;
+    height: 20%;
+    line-height:100px;
+    width: 100%;
+    background-color: #CDCDC1;
+}
+
+

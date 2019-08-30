@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gufe.dao.UserDao">
+
+
+    <!--查询手机号-->
+    <select id="getTelephone" parameterType="String" resultType="String">
+        SELECT telephone FROM user WHERE telephone = #{telephone}
+    </select>
+    <!--登录验证-->
+    <select id="loginUser" parameterType="String" resultType="String">
+        SELECT username FROM user WHERE telephone = #{telephone} AND password = #{password}
+    </select>
+    <!--添加用户-->
+    <insert id="regUser" parameterType="User" useGeneratedKeys="true" keyProperty="uId">
+        INSERT INTO user(username,password,telephone,regdate)
+        VALUES(#{userName},#{password},#{telephone},#{regDate})
+    </insert>
+    <select id="allUser" resultType="User">
+        SELECT uid,username,password,telephone FROM user
+    </select>
+    <select id="oneUser"  parameterType="String" resultType="User">
+        SELECT uid,username,password,telephone,email,sex,brithday,address,profile,headpicpath,logoffdate
+        FROM user
+        WHERE telephone = #{telephone}
+    </select>
+    <update id="updateLogoffDate" parameterType="String">
+        UPDATE user
+        set logoffdate =#{logoffDate}
+        WHERE telephone = #{telephone}
+    </update>
+
+    <update id="updateHeadPic" parameterType="String">
+        UPDATE user
+        SET headpicpath = #{headPicPath}
+        WHERE telephone = #{telephone}
+    </update>
+    <select id="getHeadPicPath" parameterType="String" resultType="String">
+        SELECT headpicpath
+        FROM user
+        WHERE telephone = #{telephone}
+    </select>
+    <select id="forgetPassword" parameterType="String" resultType="String">
+        SELECT password
+        FROM USER
+        WHERE telephone = #{telephone} AND username = #{userName}
+    </select>
+    <select id="getUser" resultType="User" parameterType="java.lang.Integer">
+        SELECT uid,username,password,telephone,email,sex,brithday,address,profile,headpicpath,logoffdate
+        FROM user
+        WHERE uid = #{uId}
+    </select>
+
+    <update id="modifyUser" parameterType="User">
+        UPDATE user
+        SET username = #{userName},password =#{password},telephone = #{telephone},
+            email = #{email},sex = #{sex},brithday = #{brithday},address = #{address},profile = #{profile}
+        WHERE  uid = #{uId}
+    </update>
+
+    <select id="hotAuthor" resultType="User">
+        SELECT
+        `user`.uid,
+        `user`.username,
+        `user`.`profile`,
+        `user`.headpicpath
+        FROM
+        `user` ,
+        selecthot3
+        WHERE
+        `user`.uid = selecthot3.uid
+    </select>
+
+    <delete id="delUser" parameterType="Integer">
+        DELETE FROM user
+        WHERE uid = #{uId}
+    </delete>
+
+</mapper>

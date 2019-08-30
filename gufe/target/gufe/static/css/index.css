@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.headbox{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 9999;
+}
+.home-header{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    height: 10%;
+    width: 100%;
+    z-index: 999;
+    background-color: #FDF5E6;
+
+}
+.home-header .logoimg{
+    height: 100%;
+    width: 180px;
+    overflow: hidden;
+}
+.logoimg img{
+    width:100%;
+    height: 100%;
+
+}
+.home-header .nav{
+    position: absolute;
+    top: 0%;
+    left: 15%;
+    width: 60%;
+    height: 10%;
+    line-height: 20%;
+    margin-top: 2%;
+}
+.nav ul {
+    list-style: none;
+}
+.nav ul li{
+    float: left;
+    margin-left: 5%;
+
+}
+.nav ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: #333333;
+}
+.userDIV, .userresult{
+    position: absolute;
+    top: 0%;
+    right: 5%;
+    height: 50px;
+    width: 15%;
+    line-height: 60px;
+    /* background-color: greenyellow;*/
+}
+/*搜索*/
+.search{
+    position: absolute;
+    top: 0%;
+    left: 60%;
+    display: block;
+    height: 50px;
+    width: 35%;
+    margin-top: -22px;
+    /*background-color: chocolate;*/
+    line-height: 50px;
+
+}
+.search label{
+    cursor: pointer;
+    color: grey;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: "Times New Roman";
+    color: #333333;
+}
+.search input{
+    margin-left:5%;
+    padding-top:  6px;
+    padding-left: 5px;
+    display: inline-block;
+    width: 75%;
+    height: 50%;
+    line-height: 50%;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    background-color: transparent;
+    background-image: none;
+    outline: none;
+
+}
+.userDIV .user{
+    display: inline-block;
+    margin-left: 20%;
+    font-size: 1.2em;
+    font-family: Aharoni;
+    color: #333333;
+    cursor: pointer;
+}
+.userresult .r-title{
+    color: rebeccapurple;
+
+}
+.userresult .r-name{
+    color: red;
+    font-weight: bold;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.indexhead{
+    position: absolute;
+    top: 5%;
+    right:15%;
+    height: 100%;
+    width: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    /*background-color: #cccccc;*/
+    cursor: pointer;
+}
+.indexhead .headimg{
+    height: 100%;
+    width: 50px;
+}
+.indexhead .headimg img{
+    height: 100%;
+    width: 100%;
+}
+.indexhead .userquit{
+    position: absolute;
+    top: 35%;
+    left:20%;
+    height: 100%;
+    line-height: 100%;
+    width: 50px;
+    color: #cc2b00;
+    display: none;
+}
+.userDIV {
+    display: block;
+}
+
+.userresult{
+    display: none;
+}
+.context{
+    position: absolute;
+    top:10%;
+    left: 0%;
+    right: 0%;
+    height: 1650px;
+    width: 100%;
+    border-top: rebeccapurple solid 1px;
+}
+.context .leftCon{
+    position: absolute;
+    top:0.3%;
+    left: 0.3%;
+    right: 0%;
+    height: 1700px;
+    width: 70.3%;
+    /*border: rosybrown solid 1px;*/
+    text-align: center;
+}
+/*前三名*/
+.topthree{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 540px;
+    width: 100%;
+    /*border: rosybrown solid 1px;*/
+
+
+}
+.topthree .first{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 300px;
+    width: 100%;
+    border: rosybrown solid 1px;
+}
+.imgplay{
+    height: 300px;
+    width: 100%;
+    display: none;
+    cursor: pointer;
+    overflow: hidden;
+}
+.imgplay img{
+    height: 100%;
+    width: 100%;
+}
+.imgplay img:hover{
+    transform: scale(1.1);
+}
+.imgShow{
+    display: block;
+}
+
+.imgplay .imgTitle{
+    display: block;
+    position: absolute;
+    top: 240px;
+    left: 2%;
+    z-index: 666;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1c6eff;
+}
+
+
+.first .playNav{
+    position: absolute;
+    top: 280px;
+    left: 40%;
+    height: 20px;
+    width: 20%;
+    z-index: 333;
+}
+.playNav ul{
+    list-style: none;
+    margin: 0% 25%;
+}
+.playNav ul li{
+    background-color: #e2e2e2;
+    float: left;
+    width: 12px;
+    height: 12px;
+    line-height: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.playNav ul li:hover{
+    background-color: #f20900;
+}
+
+.topthree .second{
+    position: absolute;
+    top: 56.5%;
+    left: 0%;
+    height: 230px;
+    width: 49.5%;
+    border: rosybrown solid 1px;
+}
+.topthree .third{
+    position: absolute;
+    top:56.5%;;
+    left: 50.5%;
+    height: 230px;
+    width: 49.5%;
+    border: rosybrown solid 1px;
+}
+.hottopic{
+    position: absolute;
+    top: 31.8%;
+    left: 0%;
+    height: 1110px;
+    width: 100%;
+    /*border: rosybrown solid 1px;*/
+    background-color: white;
+}
+.hotpicul{
+    list-style: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+}
+.hotpicul li{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100px;
+    /*background-color: #00b4f4;*/
+    margin-top: 10px;
+}
+.hotpicul li:hover{
+    cursor: pointer;
+    background-color: #e2e2e2;
+}
+.hotpicul li .tuimg{
+    height: 96px;
+    width: 100px;
+    margin-top:2px;
+    background-color: #00b4f4;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 3;
+}
+.tuimg img{
+    height: 100%;
+    width: 100%;
+}
+.hotpicul li .themescenterbox{
+    position: relative;
+    top: 35px;
+    left: 10%;
+    width: 90%;
+    height: 30px;
+    /*background-color: #00b4f4;*/
+    z-index: 2;
+    float: left;
+    line-height: 30px;
+
+}
+.themescenterbox:hover{
+    cursor: pointer;
+}
+.themescenterbox .peopleIco{
+    height: 20px;
+    width: 20px;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5px;
+}
+.peopleIco img{
+    width: 100%;
+    height: 100%;
+}
+.themescenterbox .TTopusername{
+    margin-left: 1%;
+    float: left;
+}
+
+.themescenterbox .TTopTitle{
+    margin-left: 15%;
+    display: block;
+    height: 30px;
+    width: 35%;
+    text-align: center;
+    /*background-color: #ff182c;*/
+    overflow: hidden;
+    float: left;
+}
+.themescenterbox .TTopMessageImg{
+    position: absolute;
+    top: 5px;
+    left: 65%;
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+.TTopMessageImg img{
+    width: 100%;
+    height: 100%;
+}
+.themescenterbox .TTopCommNum{
+    position: absolute;
+    top: 0px;
+    left: 68%;
+    float: left;
+}
+.themescenterbox .TTopTime{
+    position: absolute;
+    top: 0px;
+    left: 80%;
+    float: left;
+}
+.hotpicul label.themesId{
+    display: none;
+}
+
+
+
+
+/*右边内容*/
+.rigthCon{
+    position: absolute;
+    top: 0.3%;
+    right: 0.3%;
+    height: 1650px;
+    width: 28.5%;
+    /*border: rosybrown solid 1px;*/
+}
+
+
+/*广告通知*/
+.notice{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 300px;
+    width: 100%;
+    border: rosybrown solid 1px;
+    text-align: center;
+}
+
+
+.noticeimg{
+    height: 300px;
+    width: 100%;
+}
+.noticeimg img{
+    height: 100%;
+    width: 100%;
+}
+/*下载排行榜top10*/
+.downloadrank{
+    position: absolute;
+    top: 18.5%;
+    left: 0%;
+    height: 500px;
+    width: 100%;
+    /*border: rosybrown solid 1px;*/
+    text-align: center;
+}
+.downloadrank .downtitle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    background-color: #b3bfca;
+    border-radius: 10px;
+}
+.downloadtop10box{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.downloadtop10tab,.downloadtop10tab tr ,.downloadtop10tab td{
+    border: #9aaacc solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+}
+.downloadtop10tab tr.top10trfirst td{
+    height: 25px;
+}
+
+.downloadtop10tab td{
+    width: 80px;
+    height: 45px;
+    word-break: keep-all;
+    white-space: nowrap;
+}
+
+.downloadtop10tab td.toptabtitle{
+    width: 140px;
+}
+
+
+.hotauthor{
+    position: absolute;
+    top: 49.5%;
+    left: 0%;
+    height: 630px;
+    width: 100%;
+    /*border: rosybrown solid 1px;*/
+    text-align: center;
+}
+.hottitle{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 25px;
+    background-color: #c3a83c;
+    color: #cc2b00;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.hotauthorfristbox{
+    position: absolute;
+    top: 30px;
+    width: 100%;
+    height: 200px;
+    /*border: #FFD700 solid 1px;*/
+}
+.hotauthorsecondbox{
+    position: absolute;
+    top: 235px;
+    width: 100%;
+    height: 200px;
+    /*border: #FFD700 solid 1px;*/
+}
+.hotauthorthirdbox{
+    position: absolute;
+    top: 440px;
+    width: 100%;
+    height: 195px;
+    /*border: #FFD700 solid 1px;*/
+}
+.authorimg{
+    height: 80px;
+    width: 80px;
+    /*border: #FFD700 solid 1px;*/
+    margin: 0px 37%;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.authorimg img{
+    height: 100%;
+    width: 100%;
+}
+.authorname{
+    display: block;
+    width: 100%;
+    height: 20px;
+    overflow: hidden;
+    /*border: #FFD700 solid 1px;*/
+}
+.authorprofile{
+    display: block;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    /*border: #FFD700 solid 1px;*/
+    text-indent: 35px;
+}
+
+
+
+
+
+/*超链接*/
+.hyperlink{
+    position: absolute;
+    top: 88%;
+    left: 0%;
+    height: 180px;
+    width: 100%;
+    /*border: rosybrown solid 1px;*/
+    text-align: center;
+}
+.hyperlink a{
+
+}
+
+/*底部*/
+.footCon{
+    position: absolute;
+    top: 1700px;
+    left: 5px;
+    right: 20px;
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    border: rosybrown solid 1px;
+    text-align: center;
+    background-color: grey;
+}
+
+
